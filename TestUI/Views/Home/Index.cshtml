@@ -2,7 +2,7 @@
 @model ChoiceOptionsDto
 
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "RPSSL Game";
 }
 
 <div class="container">
@@ -23,7 +23,7 @@
                 <br />
                 <h5>Play game</h5>
                 <hr>
-                @using (Html.BeginForm("Submit", "Home", FormMethod.Post, new { id = "myform" }))
+                @using (Html.BeginForm("Submit", "Home", FormMethod.Post, new { id = "gameform" }))
                 {
                     @for (int i = 0; i < Model.Options.Count; i++)
                     {
@@ -34,9 +34,13 @@
                         
                     }
                     <br />
+
+                    <br />
                     <button id="submitButton" type="button" class="btn btn-primary">Submit</button>
                     <br />
-                    <p class="game-result d-inline"></p>
+
+                    <br />
+                    <p class="game-result"></p>
                     <br />
                 }
             </div>
@@ -115,9 +119,6 @@
                 }
             });
         });
-    });
-
-    $(document).ready(function () {
         $('#submitButton').click(function () {
             if (!$('.radioOption:checked').length) {
                 alert('Please select an option.');
@@ -128,7 +129,7 @@
             };
 
             $.ajax({
-                url: '/Home/Submit',
+                url: '@Url.Action("Submit", "Home")',
                 type: 'POST',
                 data: formData,
                 success: function (response) {
@@ -151,7 +152,7 @@
                             $("#removeScore").removeClass('d-none');
                         }
                         score.forEach(function (result) {
-                            $('.body-table').append('<tr class="d-iinline"><td>' + result.playerMove + ' </td><td>' + result.computerMove + '</td><td>(You) ' + result.result + '.</td>');
+                            $('.body-table').append('<tr><td>' + result.playerMove + ' </td><td>' + result.computerMove + '</td><td>(You) ' + result.result + '.</td>');
              
                         });
                     } 

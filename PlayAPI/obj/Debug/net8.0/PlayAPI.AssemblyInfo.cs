@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlayAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86e041da303e8f71de5761a4d53ec4ff11931727")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlayAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlayAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

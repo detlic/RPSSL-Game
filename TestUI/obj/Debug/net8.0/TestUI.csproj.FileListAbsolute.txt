@@ -114,6 +114,7 @@ D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\TestUI.csproj.CoreCompileInputs.c
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\TestUI.MvcApplicationPartsAssemblyInfo.cache
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\TestUI.RazorAssemblyInfo.cache
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\TestUI.RazorAssemblyInfo.cs
+D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\TestUI.sourcelink.json
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\staticwebassets.development.json
 D:\Downloads\RPSSLGame\TestUI\obj\Debug\net8.0\staticwebassets\msbuild.TestUI.Microsoft.AspNetCore.StaticWebAssets.props

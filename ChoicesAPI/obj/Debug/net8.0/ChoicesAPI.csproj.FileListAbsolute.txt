@@ -116,6 +116,7 @@ D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\ChoicesAPI.AssemblyInfo.cs
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\ChoicesAPI.csproj.CoreCompileInputs.cache
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\ChoicesAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\ChoicesAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\ChoicesAPI.sourcelink.json
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\staticwebassets.development.json
 D:\Downloads\RPSSLGame\ChoicesAPI\obj\Debug\net8.0\staticwebassets\msbuild.ChoicesAPI.Microsoft.AspNetCore.StaticWebAssets.props
