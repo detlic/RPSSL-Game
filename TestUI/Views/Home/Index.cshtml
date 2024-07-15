@@ -1,0 +1,184 @@
+﻿@using TestUI.Models
+@model ChoiceOptionsDto
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="content-box">
+                <h5>All choices</h5>
+                <hr>
+                <button id="choicesButton" class="btn btn-primary mb-3">All Choices</button>
+                <br />
+                <div id="allChoicesContainer"></div>
+                <br />
+                <h5>Random choice</h5>
+                <hr>
+                <button id="randomChoiceButton" class="btn btn-primary">Random Choice</button>
+                <br />
+                <div id="randomChoiceContainer"></div>      
+                <br />
+                <h5>Play game</h5>
+                <hr>
+                @using (Html.BeginForm("Submit", "Home", FormMethod.Post, new { id = "myform" }))
+                {
+                    @for (int i = 0; i < Model.Options.Count; i++)
+                    {
+                        <label>
+                            @Html.RadioButtonFor(m => m.SelectedOptionId, Model.Options[i].Id, new { @class = "radioOption" })
+                            @Model.Options[i].Choice
+                        </label>
+                        
+                    }
+                    <br />
+                    <button id="submitButton" type="button" class="btn btn-primary">Submit</button>
+                    <br />
+                    <p class="game-result d-inline"></p>
+                    <br />
+                }
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="content-box">
+                <h5>Score</h5>
+                <hr>
+                <div id="queueDataContainer" class="table-responsive">
+                    <table class="table table-bordered d-none">
+                        <thead>
+                            <tr>
+                                <th scope="col">Player</th>
+                                <th scope="col">Computer</th>
+                                <th scope="col">Result</th>
+                            </tr>
+                        </thead>
+                        <tbody class="body-table"></tbody>
+                    </table>
+                </div>
+                <br />
+                <button id="removeScore" type="button" class="btn btn-primary mb-3 d-none">Remove score</button>
+            </div>
+        </div>       
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+        $('#choicesButton').click(function() {
+ 
+            $.ajax({
+                url: '@Url.Action("AllChoices", "Home")', 
+                type: 'GET',
+                dataType: 'json', 
+                success: function(data) {
+
+                    $('#allChoicesContainer').empty();
+
+
+                    var resultHtml = '<ul>';
+                    $.each(data, function(index, item) {
+                        resultHtml += '<li>' + item.choice + '</li>'; 
+                    });
+                    resultHtml += '</ul>';
+                    $('#allChoicesContainer').append(resultHtml);
+                },
+                error: function(xhr, textStatus, errorThrown) {
+
+                    console.error('Error:', errorThrown);
+                }
+            });
+        });
+
+        $('#randomChoiceButton').click(function () {
+
+            $.ajax({
+                url: '@Url.Action("RandomChoice", "Home")',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+
+                    $('#randomChoiceContainer').empty();
+
+
+                    var resultHtml = '<p>';             
+                    resultHtml += data.choice + '</p>';
+
+                    $('#randomChoiceContainer').append(resultHtml);
+                },
+                error: function (xhr, textStatus, errorThrown) {
+
+                    console.error('Error:', errorThrown);
+                }
+            });
+        });
+    });
+
+    $(document).ready(function () {
+        $('#submitButton').click(function () {
+            if (!$('.radioOption:checked').length) {
+                alert('Please select an option.');
+                return;
+            }
+            var formData = {
+                move: $('input[name=SelectedOptionId]:checked').val()
+            };
+
+            $.ajax({
+                url: '/Home/Submit',
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    $('.game-result').empty();
+                    $('.table').removeClass('d-none');
+
+                    if (response && response.scoreResponse.length > 0) {
+                        var lastResult = response.singleGameResult;
+                        var score = response.scoreResponse;
+                        $('.game-result').append('You played ' + lastResult.moves[0].move + ', computer played ' + lastResult.moves[1].move + '. ');
+                        if (lastResult.moves[0].move !== lastResult.moves[1].move)
+                        {
+                            $('.game-result').append(' You ');
+                        } 
+                        $('.game-result').append(lastResult.result + '.');
+
+                        $('.body-table').empty();
+                        if ($("#removeScore").hasClass('d-none')) 
+                        {
+                            $("#removeScore").removeClass('d-none');
+                        }
+                        score.forEach(function (result) {
+                            $('.body-table').append('<tr class="d-iinline"><td>' + result.playerMove + ' </td><td>' + result.computerMove + '</td><td>(You) ' + result.result + '.</td>');
+             
+                        });
+                    } 
+             
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                }
+            });
+        });
+
+        $('#removeScore').click(function () {
+
+            $.ajax({
+                url: '@Url.Action("RemoveScoreSession", "Home")',
+                type: 'POST',
+                success: function () {
+                    $('.body-table').empty();
+                    $('.table').addClass('d-none');
+                    $("#removeScore").addClass('d-none');
+                },
+                error: function (xhr, textStatus, errorThrown) {
+
+                    console.error('Error:', errorThrown);
+                }
+            });
+        });
+    });
+</script>
+

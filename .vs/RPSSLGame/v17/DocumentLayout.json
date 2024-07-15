@@ -1,0 +1,652 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\controllers\\choicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\iservice\\icommunicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\iservice\\icommunicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\choiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\choiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\choicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\choicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\choiceoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\choiceoptionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\movedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\movedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\playresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\playresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\iservice\\ichoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\iservice\\ichoiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\iservice\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\iservice\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\communicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\communicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\utilities\\apibasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\utilities\\apibasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\views\\shared\\_notifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\utilities\\playgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\utilities\\playgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\utilities\\iplaygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\utilities\\iplaygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\utilities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\utilities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\utilities\\ichoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\utilities\\ichoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\choiceenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\choiceenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\model\\playresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\model\\playresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\model\\choicerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\model\\choicerule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\model\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\model\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\model\\movedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\model\\movedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\playapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81841C28-BA53-45EF-8D13-5D83CC7986E5}|PlayAPI\\PlayAPI.csproj|solutionrelative:playapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\model\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\model\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\model\\choicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\model\\choicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|c:\\users\\katar\\downloads\\choicesapi\\choicesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C59988A0-018D-4D83-81BE-8C0F149F7FE7}|ChoicesAPI\\ChoicesAPI.csproj|solutionrelative:choicesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|c:\\users\\katar\\downloads\\choicesapi\\testui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7EE0FAB-4A06-4CD0-855E-F78E1BC1ED9D}|TestUI\\TestUI.csproj|solutionrelative:testui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MoveDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\MoveDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\MoveDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\MoveDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\MoveDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:39.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TestUI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:11:08.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChoiceOptionsDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ChoiceOptionsDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\ChoiceOptionsDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ChoiceOptionsDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\ChoiceOptionsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ChoiceDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\ChoiceDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ChoiceDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\ChoiceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TestUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TestUI\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\SessionDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\SessionDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\SessionDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\SessionDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T08:28:42.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\ChoiceService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\ChoiceService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\ChoiceService.cs",
+              "RelativeToolTip": "TestUI\\Services\\ChoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICommunicationService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\ICommunicationService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\IService\\ICommunicationService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\ICommunicationService.cs",
+              "RelativeToolTip": "TestUI\\Services\\IService\\ICommunicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Controllers\\ChoiceController.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Controllers\\ChoiceController.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Controllers\\ChoiceController.cs",
+              "RelativeToolTip": "ChoicesAPI\\Controllers\\ChoiceController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TestUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAcwIkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T06:13:40.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayResponse.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\PlayResponse.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\PlayResponse.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\PlayResponse.cs",
+              "RelativeToolTip": "TestUI\\Models\\PlayResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\RequestDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\RequestDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\RequestDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\RequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "TestUI\\Models\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Models\\ResponseDto.cs",
+              "RelativeToolTip": "TestUI\\Models\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:10:27.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IChoiceService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\IChoiceService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\IService\\IChoiceService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\IChoiceService.cs",
+              "RelativeToolTip": "TestUI\\Services\\IService\\IChoiceService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\IGameService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\IService\\IGameService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\IService\\IGameService.cs",
+              "RelativeToolTip": "TestUI\\Services\\IService\\IGameService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommunicationService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\CommunicationService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\CommunicationService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\CommunicationService.cs",
+              "RelativeToolTip": "TestUI\\Services\\CommunicationService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAvwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "TestUI\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Services\\GameService.cs",
+              "RelativeToolTip": "TestUI\\Services\\GameService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiBasic.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Utilities\\ApiBasic.cs",
+              "RelativeDocumentMoniker": "TestUI\\Utilities\\ApiBasic.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Utilities\\ApiBasic.cs",
+              "RelativeToolTip": "TestUI\\Utilities\\ApiBasic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:11:35.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Program.cs",
+              "RelativeDocumentMoniker": "TestUI\\Program.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Program.cs",
+              "RelativeToolTip": "TestUI\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Notifications.cshtml",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeDocumentMoniker": "TestUI\\Views\\Shared\\_Notifications.cshtml",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Shared\\_Notifications.cshtml",
+              "RelativeToolTip": "TestUI\\Views\\Shared\\_Notifications.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T13:23:53.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TestUI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TestUI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T13:18:44.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Controllers\\GameController.cs",
+              "RelativeToolTip": "PlayAPI\\Controllers\\GameController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IPlayGame.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Utilities\\IPlayGame.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Utilities\\IPlayGame.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Utilities\\IPlayGame.cs",
+              "RelativeToolTip": "PlayAPI\\Utilities\\IPlayGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:09:30.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Utilities\\Choice.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Utilities\\Choice.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Utilities\\Choice.cs",
+              "RelativeToolTip": "ChoicesAPI\\Utilities\\Choice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IChoice.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Utilities\\IChoice.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Utilities\\IChoice.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Utilities\\IChoice.cs",
+              "RelativeToolTip": "ChoicesAPI\\Utilities\\IChoice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayResponse.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\PlayResponse.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Model\\PlayResponse.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\PlayResponse.cs",
+              "RelativeToolTip": "PlayAPI\\Model\\PlayResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChoiceRule.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\ChoiceRule.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Model\\ChoiceRule.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\ChoiceRule.cs",
+              "RelativeToolTip": "PlayAPI\\Model\\ChoiceRule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Program.cs",
+              "RelativeToolTip": "PlayAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:01:29.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Model\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\ResponseDto.cs",
+              "RelativeToolTip": "PlayAPI\\Model\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T13:03:08.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PlayAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PlayAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T13:02:35.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Model\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Model\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Model\\ResponseDto.cs",
+              "RelativeToolTip": "ChoicesAPI\\Model\\ResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Model\\ChoiceDto.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Model\\ChoiceDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Model\\ChoiceDto.cs",
+              "RelativeToolTip": "ChoicesAPI\\Model\\ChoiceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ChoicesAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ChoicesAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T12:39:39.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChoiceEnum.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\ChoiceEnum.cs",
+              "RelativeDocumentMoniker": "ChoicesAPI\\ChoiceEnum.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\ChoicesAPI\\ChoiceEnum.cs",
+              "RelativeToolTip": "ChoicesAPI\\ChoiceEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MoveDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\MoveDto.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Model\\MoveDto.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Model\\MoveDto.cs",
+              "RelativeToolTip": "PlayAPI\\Model\\MoveDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\appsettings.json",
+              "RelativeDocumentMoniker": "TestUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\appsettings.json",
+              "RelativeToolTip": "TestUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-15T06:13:40.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TestUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\TestUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TestUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwC0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T06:13:40.253Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "52b319ea-7897-41d1-900b-587640a39443",
+        "Display": 1,
+        "X": 264,
+        "Y": 127,
+        "Width": 1622,
+        "Height": 701,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlayGame.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Utilities\\PlayGame.cs",
+              "RelativeDocumentMoniker": "PlayAPI\\Utilities\\PlayGame.cs",
+              "ToolTip": "C:\\Users\\katar\\Downloads\\ChoicesAPI\\PlayAPI\\Utilities\\PlayGame.cs",
+              "RelativeToolTip": "PlayAPI\\Utilities\\PlayGame.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T06:13:40.197Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
